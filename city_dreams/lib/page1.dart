@@ -175,7 +175,7 @@ class _Page1State extends State<Page1> {
         FlatButton(
           onPressed: ()
           {
-            Navigator.pop(context,true);
+            return true;
           },
           color: Colors.black,
           child: Text(
@@ -188,7 +188,7 @@ class _Page1State extends State<Page1> {
         FlatButton(
           onPressed: ()
           {
-            Navigator.pop(context,false);
+            return false;
           },
           color: Colors.black,
           child: Text(
